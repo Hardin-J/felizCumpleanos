@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>openProject</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+</head>
+
+<body>
+	<div>
+		<div class="hero">
+			<video autoplay loop muted plays-inline class="mainVideo" poster="Img3.jpg">
+				<source src="loveCloud1.mp4" type="video/mp4">
+			</video> 
+			<nav>
+				<!--<img src="Img3.jpg" class="mainPic">-->
+      <div class="k"></div>
+  
+</div>
+				
+				</ul>
+			</nav>
+			
+			</div>
+		</div>
+	</div>
+	
+
+<style>
+  /*  Rollover image styles  */
+  .figure {
+    position: relative;
+    width: 360px; /* can be omitted for a regular non-lazy image */
+    max-width: 100%;
+  }
+  .figure img.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .figure:hover img.image-hover {
+    opacity: 1;
+    transition-delay: 2s;
+  }
+  .figure:hover img.image-main {
+    opacity: 0;
+    transition-delay: 1s;
+  }
+  .k{
+		width: 300px;
+		height: 550px;
+
+		background: url('finishing/one.svg');
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+	.k:hover{
+		animation: ani 3s ease forwards;
+	}
+
+	@keyframes ani{
+
+		60%{
+			background: url('finishing/two.svg');
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+		100%{
+
+			background: url('finishing/thre.svg');
+			background-repeat: no-repeat;
+			background-size: contain;
+
+		}
+	}
+</style>
+
+</body>
+</html>
